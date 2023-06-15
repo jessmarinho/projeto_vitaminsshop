@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+
+body,
+input,
+textarea {
+    font-family: 'Zilla Slab', serif;
+    background-color: #edececef;
+}
+
+header {
+    padding: 40px 0;
+    background-color: #3f8057;
+    color: #fff;
+    font-size: 20px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 50px;
+    color: #fff;
+    font-size: 24px;
+}
+
+header nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-between;
+    margin: 36px auto
+}
+
+.articles article {
+    width: 10%;
+}
+
+.articles article h3 {
+    margin-top: 10px;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: normal;
+}
+
+.articles article a {
+    background-color: #3f8057;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+    background-color: rgb(144, 228, 160) ;
+}
+
+
+.brands-list img {
+    height: 24px;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section .container img {
+    width: 800px;
+    height: 500px;
+}
+
+section .brands-list img {
+    width: 70px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color:   #3f8057;
+}
+
+section {
+    color:  #3f8057;
+}
+
+section p {
+    margin-bottom: 10px;
+    padding: 16px;
+    color: black;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.store-front {
+    margin-right: 32px;
+}
+
+.articles article img {
+    height: 420px;
+    width: 240px;
+}
+
+section .social-link img {
+    height: 30px;
+    width: auto;
+}
+
+section .pay-forms img {
+    height: auto;
+    width: 400px;
+    margin-left: 40px;
+}
+
+.social-link li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-link li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+    width: 320px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #3f8057;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    width: 320px;
+    height: 50px;
+}
+
+form button:hover {
+    text-decoration: underline;
+    background-color: rgb(144, 228, 160) ;
+}
+
+input:focus, textarea:focus {
+    outline-color:  #3f8057;
+}
+
+footer {
+    background-color:  #3f8057;
+    color: #ecf0f1;
+    padding: 16px 0;
+}
